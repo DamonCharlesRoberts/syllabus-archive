@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+/.luarc.json
+
+# Ignore all ds_store
+.DS_Store
