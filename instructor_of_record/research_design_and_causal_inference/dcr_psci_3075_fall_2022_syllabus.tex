@@ -1,0 +1,294 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage{geometry}
+\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{fancyhdr, lastpage, bbding, pmboxdraw}
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{darkblue}{rgb}{0,0,.6}
+\definecolor{darkred}{rgb}{.7,0,0}
+\definecolor{darkgreen}{rgb}{0,.6,0}
+\definecolor{red}{rgb}{.98,0,0}
+\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=darkblue,citecolor=darkblue,linkcolor=darkred,bookmarksnumbered,plainpages=false]{hyperref}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\pagestyle{fancyplain}
+\fancyhf{}
+\lhead{ \fancyplain{}{PSCI 3075} }
+%\chead{ \fancyplain{}{} }
+\rhead{ \fancyplain{}{Updated: \today} }
+%\rfoot{\fancyplain{}{page \thepage\ of \pageref{LastPage}}}
+\fancyfoot[RO, LE] {page \thepage\ of \pageref{LastPage} }
+\thispagestyle{plain}
+%%%%%%%%%%%% LISTING %%%
+\usepackage{listings}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\usepackage{verbatim} % used to display code
+\usepackage{fancyvrb}
+\usepackage{acronym}
+\usepackage{amsthm}
+\VerbatimFootnotes % Required, otherwise verbatim does not work in footnotes!
+
+
+
+\definecolor{OliveGreen}{cmyk}{0.64,0,0.95,0.40}
+\definecolor{CadetBlue}{cmyk}{0.62,0.57,0.23,0}
+\definecolor{lightlightgray}{gray}{0.93}
+
+
+
+\lstset{
+%language=bash,                          % Code langugage
+basicstyle=\ttfamily,                   % Code font, Examples: \footnotesize, \ttfamily
+keywordstyle=\color{OliveGreen},        % Keywords font ('*' = uppercase)
+commentstyle=\color{gray},              % Comments font
+numbers=left,                           % Line nums position
+numberstyle=\tiny,                      % Line-numbers fonts
+stepnumber=1,                           % Step between two line-numbers
+numbersep=5pt,                          % How far are line-numbers from code
+backgroundcolor=\color{lightlightgray}, % Choose background color
+frame=none,                             % A frame around the code
+tabsize=2,                              % Default tab size
+captionpos=t,                           % Caption-position = bottom
+breaklines=true,                        % Automatic line breaking?
+breakatwhitespace=false,                % Automatic breaks only at whitespace?
+showspaces=false,                       % Dont make spaces visible
+showtabs=false,                         % Dont make tabls visible
+columns=flexible,                       % Column format
+morekeywords={__global__, __device__},  % CUDA specific keywords
+}
+
+\usepackage{longtable}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+{\Large \textsc{PSCI 3075 - Applied Political Science Research}}
+\end{center}
+\begin{center}
+Fall 2022
+\end{center}
+%\date{September 26, 2014}
+
+\begin{center}
+\rule{6in}{0.4pt}
+\begin{minipage}[t]{.75\textwidth}
+\begin{tabular}{lclc}
+\textbf{Instructor:} & Damon C. Roberts &\textbf{Email:} & \href{mailto:damon.roberts-1@colorado.edu}{damon.roberts-1@colorado.edu} \\
+\textbf{Time:} &  MWF 11:15 AM -- 12:05 PM &\textbf{Class Location:} & Humanities 1B80 \\
+\textbf{Office Hours} & W 12:15 PM -- 2:15 PM & \textbf{Office:} & Ketchum Arts \& Sciences 382
+\end{tabular}
+\end{minipage}
+\rule{6in}{0.4pt}
+\end{center}
+\vspace{.5cm}
+\setlength{\unitlength}{1in}
+\renewcommand{\arraystretch}{2}
+
+\section*{Course Pages:} \begin{enumerate}
+\item \url{https://canvas.colorado.edu}
+%\item \url{https://github.com/damoncharlesroberts/psci_3075/fall_2022}\footnote{Look here for labs and datasets for the course.}
+\end{enumerate}
+
+
+\section*{Course Description:} 
+
+Data are used to make decisions in many different contexts. Many of these decisions have real-world consequences for many people. In politics, we often use data with the goal of understanding events and political actors. In political science, we often find ourselves striving to understand why an event occurred or why a political actor behaved in a particular way. Many of these questions seeking to explain a phenomenon are rather tricky to answer. Hopefully the course will convince you of this.
+
+Sometimes we might use standard regression called Ordinary Least Squares (OLS) to statistically examine whether a particular variable caused some outcome. This standard regression, however, relies on a number of assumptions that can be pretty hard to meet - either because of the type of question we are interested in or the data that we have access to. As a result, political scientists often have to think through a ``Research Design'' which will allow them to ensure that their scientific approach match with claims of a cause-and-effect relationship. Even still, these choices often are compromises between feasibility and accuracy.
+
+The goal of this course is to build upon students' foundational knowledge of statistics and regression to provide a survey of some approaches to studying such causal questions. To do this, the course will cover the statistical concepts motivating such research design choices, will discuss how these concepts are applied, and will ask students to apply these concepts to a causal question of their own. This means that students should have already taken PSCI 2075 and are comfortable with basic statistics and regression along with some familiarity with performing such analyses in the statistical computing language R. Students should be aware that this is just an \textit{introduction} to the use of experiments and surveys in applied research and that there are many other possible options out there.
+
+
+\section*{Learning Objectives:} 
+    \begin{enumerate}
+        \item To learn about different research designs that professional political scientists use to study cause-and-effect relationships from political data.
+        \item When producing one's own analyses, students should be able to diagnose and select an appropriate research design to study a cause-and-effect relationship of the students' interest. While effectively communicating these decisions and properly communicating the results of their analyses. When reading other's analyses, students should be able to identify flaws in a particular approach one takes and offer practical suggestions that can improve the study.
+        \item To build on the students' knowledge of statistical programming with the R language.
+        \item To learn and improve on the students' skill of reproducible code, to follow open science best practices, and to learn and become moderately comfortable with version control.
+    \end{enumerate}
+
+\section*{Materials:}
+    \subsection*{Required Texts: NOT REQUIRED TO PURCHASE. DIGITAL VERSIONS WILL BE POSTED TO CANVAS}
+        \begin{itemize}
+            %\item Bueno de Mesquita, Ethan and Anthony Fowler. 2021. \textit{Thinking Clearly with Data: A Guide to Quantatitive Reasoning and Analysis}. Princeton University Press. Princeton, NJ.
+            %\item Cunningham, Scott. 2020. \textit{Causal Inference: The Mixtape}. Yale University Press. New Haven, CT.
+            \item Druckman, James N. and Donald P. Green. 2021. \textit{Advances in Experimental Political Science}. Cambridge University Press. Cambridge, MA.\footnote{Referred to as AEPS on course schedule.}
+            \item Enders, Craig K. 2021. \textit{Applied Missing Data Analysis}. $2^{nd}$ Edition. Guilford Press. New York, NY.
+            \item Huntington-Klein, Nick. 2021. \textit{The Effect: An introduction to research design and causality}. Chapman and Hall/CRC.
+            \item Kellstedt, Paul M. and Guy D. Whitten. 2018. \textit{The Fundamentals of Political Science Research}. 3rd ed. Cambridge University Press. New York.
+            %\item Kennedy, Peter. 2008. \textit{A Guide to Econometrics}. $6^{th}$ Edition. Blackwell Publishing. Oxford, UK.
+            %\item Pickup, Mark. 2014. \textit{Introduction to time series analysis}. $1^{st}$ Edition. Sage Publications.
+            \item Weisberg, Herbert F. 2005. \textit{The Total Survey Error Approach: A Guide to the new science of survey research}. Chicago University Press. Chicago, IL.
+            \item Other readings will be posted to canvas.
+        \end{itemize}
+    \subsection*{Recommended Texts - Useful for self-study or more advanced study:}
+        \begin{itemize}
+            \item Agresti, Alan and Barbara Finlay. 2009. Statistical Methods for the Social Sciences. $4^{th}$ Edition. Pearson.
+            \item Morgan, Stephen L. and Christopher Winship. 2015. \textit{Counterfactuals and causal inference}. Cambridge University Press. Cambridge, MA.
+            \item Pollock III, Philip H. 2016. \textit{The Essentials of Political Analysis}. $5^{th}$ Edition. CQ Press.
+            \item Wheelan, Charles. 2014. \textit{Naked Statistics: Stripping the dread from the data}. $1^{st}$ Edition. W.W. Norton \& Company.
+        \end{itemize}
+\section*{Grades:}
+    \subsection*{Grading Scheme:}
+    Progress Report - $10\% \times 3 = 30\%$ \\  
+
+    Midterm Exam - $20\%$ \\
+
+    Final Exam - $20\%$ \\
+
+    Final Paper - $30\%$
+
+    \subsection*{Grading Scale:}
+    A = 94 - 100; A- = 90 - 93.9; B+ = 87 - 89.9; B = 83 - 86.9; B- = 80 - 82.9; C+ = 77 - 79.9; C = 73 - 76.9; C- = 70 - 72.9; D+ = 67 - 69.9; D = 63 - 66.9; D- = 60 - 62.9; F < 59.9
+    \subsection*{Late policy:}
+It will be very important that you stay on top of the material for the course and to not fall behind. However, I do recognize that life events may come up. As a number of the assignments in the course build on one another, you should keep in mind that turning in assignments late also means you will receive feedback later than you otherwise would have, giving you less time to implement the feedback for the next assignment. 
+
+You should work with me \textbf{before} an assignment is due if you feel that it will be turned in late.
+
+\section*{Assignments:}
+    \subsection*{Progress Report:}
+    
+    Over the course of the semester, I will ask you to submit three (3) progress reports. These progress reports are meant to help me gauge where you are with the concepts of the course and your progress toward your final paper for the course which will be original research. I will provide specific details about what I would like to see. You will be asked some conceptual questions from the course related to the topic you are interested in, asked to write some R code and interpret the results, ask you to provide a self-assessment of your progress in the course and on your research, and I will ask about what material you are still struggling with. This will help me figure out what concepts I should provide more resources on or provide a review of.
+    \subsection*{Final paper:} 
+    
+    You will be asked to perform original, quantitative research. The final paper for the course should be on a causal question related to politics that is interesting to you and should be feasibly executable. The paper should come in whichever form makes most sense for you to build a portfolio for the career you would like to have once you finish your time as an undergrad at CU. Some examples can be: the form of an academic article that is published in a peer review journal like the \textit{American Political Science Review} or a piece of data journalism that you may see on FiveThirtyEight.com or by the Pew Research Center. If you would like to do this in some other form than the two examples above, please run them by me for my approval first.
+
+    It will be important that you identify a research question, some set of hypotheses of a cause-and-effect relationship, and identify possible data sources early on in the semester (by Progress Report \#1). Unfortunately, not all questions are easy to answer with data without performing original data collection yourself. So you may have to adjust your question in order to adequately answer it without having to collect original data. 
+
+    The strategy you take should address your particular question. You will see how this is done throughout the course in the readings. You should not pick a question or a particular modeling approach based on what is available or easy to do, but you should be sure that the strategy you choose actually does answer your question. More details will be discussed in the course. As always, if you have specific questions for your assignment, please talk to me.
+    \subsection*{Midterm Exam}
+
+    You will take a multiple choice Midterm Exam around half-way through the semester. This exam will be administered through Canvas \textbf{in class} (i.e., this is not a take-home exam) and will be open note and open book. This means that on the day of the Midterm, you should bring a computer or some other device you can reliably take the exam on. You should also bring notes and other materials that are easy for you to access during the exam. You will not be permitted to take the exam with other students, talk to other students while taking the exam, or to consult with anyone about the exam before you have submitted it. If you are found to have done any of these things, it will be considered academic dishonesty and will be reported to the University.
+
+    \subsection*{Final Exam}
+
+    You will take a multiple choice Final exam at the end of the semester. This exam will also be administered through canvas and will be open note and open book. You will not be permitted to take the exam with other students, talk to other students while taking the exam, or to consult with anyone about the exam before you have submitted it. If you are found to have done any of these things, it will be considered academic dishonesty and will be reported to the University. I will announce the time and location of the final exam as this information is made available.
+
+\section*{Contacting me and recieving help in the course}
+\subsection*{How to refer to me:}
+
+I am a PhD Candidate, which means I have not yet recieved my PhD - but I am in the last stages of the process, so my title is not yet Dr. Roberts. I am the instructor of the course, so it is totally appropriate to refer to me as Professor Roberts. I go back and forth with this, but I am generally comfortable with students referring to me by my first name - with a caveat.
+
+Female faculty and faculty of color face a several barriers in academia. One part of this is that students often treat female faculty and faculty of color as if they have less authority and expertise over their respective subject material. These biases manifest in a number of ways. One common way is that students feel more comfortable referring to their non-white male faculty without an acknowledgement of their titles. For me to \textbf{allow} students to refer to me by my first name is one form of of my unearned privilege. Unless a faculty member explicitly tells you that it is okay to refer to them by their first name, you should only refer to them as Professor LASTNAME. This is a safe option for faculty that may not or may not yet have a PhD where referring to them as Dr. LASTNAME may not be appropriate.
+
+\subsection*{Office Hours:} 
+
+My scheduled office hours are dedicated time for me to meet with my students. They are there to help you. You do not need to attend my office hours only if you need help with the course's material but they can also be a great way for me to learn about my students and for you to learn about my work outside of the course. In my own experience, attending one of my professor's office hours put me on the path I am on today, and I am extremely grateful for their persistence to hound me into attending their office hours. Though I am not a professional career or academic advisor, I am always happy to give advice based on my impressions and am happy to point you to resources and/or people who may be able to help with things beyond the course. Please feel free to take advantage of this time.
+
+\subsection*{Email:}
+
+I get a lot of emails. I want to be sure that I can resolve them quickly. Therefore, I have a couple of asks:
+\begin{itemize}
+    \item Please use professional communication etiquette. Make sure that it the primary point of the email is clear. 
+    \item Please direct coding questions to the course discussion board. Students will likely have similar problems. We also have built-in days geared toward working through your own project. 
+    \item I will try to respond to emails within 48 hours during the regular work week. Emails sent over the weekend will be treated as if they were sent in on Monday; but I will try to respond by Monday.
+\end{itemize}
+
+\subsection*{Methods Lab Coordinator}
+
+The PSCI department also has made a Methods Lab Coordinator available to students enrolled in this course. While the Methods Lab Coordinator tends to be a graduate student, they are not a TA or grader for the course. This means that they are a resource available to you, but they are not a personal tutor nor are they expected to be familiar with the assignments or my expectations for the course. They are available to schedule meetings with if you have questions to troubleshoot errors you are recieving in R. I will provide more information about the availability of the Methods Lab Coordinator and how to schedule a meeting with them on Canvas.
+
+\section*{Course Schedule:}
+\begin{longtable}[hbt!]{p{0.1\textwidth}p{0.3\textwidth}p{0.3\textwidth}}
+        \hline 
+        \multicolumn{3}{l}{\textbf{Module 1: Review of Statistics and Regression}} \\
+        \hline
+        Assignments & Sept. 2 \@ 11:59pm & Progress report \# 1 \\
+         & Oct. 7 in class & Midterm exam \\
+        \hline
+        Week 1 & \begin{itemize} \item[M - Aug. 22:] Course introduction \item[W:] Refresher on R syntax \item[F:] Refresher on R syntax pt. II \end{itemize} & \begin{itemize} \item[M:] Kellstedt and Whitten Chapter 1 \item[W:] Huntington-Klein Chapters 2 and 3 \end{itemize}\\
+        \hline 
+        Week 2 & \begin{itemize} \item[M - Aug. 29:] Basic probability \item[W:] Univariate analyses \item[F:] Practice: Univariate analyses \end{itemize} & \begin{itemize} \item[W:] Kellstedt and Whitten Chapter 5 \& Huntington-Klein Chapter 3 \end{itemize}\\
+        \hline 
+        Week 3 & \begin{itemize} \item[M - Sept. 5:] No class - Labor Day \item[W:] Inference \item[F:] Practice: Visualizing sample, sampling, and population distributions \end{itemize} & \begin{itemize} \item[W:] Kellstedt and Whitten Chapter 7 \end{itemize} \\
+        \hline
+        Week 4 & \begin{itemize} \item[M - Sept. 12:] Bivariate relationships \item[W:] Practice: Bivariate relationships \item[F:] DIY: Examining your own bivariate relationships \end{itemize} & \begin{itemize} \item[M:] Huntington-Klein Chapter 4 \& Kellstedt and Whitten Chapter 8 \item[F:] \href{https://www.buzzfeednews.com/article/kjh2110/the-10-most-bizarre-correlations}{Harlin 2013} \end{itemize} \\
+        \hline 
+        Week 5 & \begin{itemize} \item[M - Sept. 19:] Correlation versus causation \item[W:] Research designs for causality \item[F:] OLS and its assumptions \end{itemize} & \begin{itemize} \item[M:] Kellstedt and Whitten Chapter 3 \& Huntington-Klein Chapter 5 \item[W:] Huntington-Klein Chapter 6, 8, and 10 \item[F:] Kellstedt and Whitten Chapter 9 \end{itemize} \\
+        \hline 
+        Week 6 & \begin{itemize} \item[M - Sept. 26:] Practice: OLS and its assumptions \item[W:] Limitations of OLS and Diagnostics \item[F:] Practice: Diagnosing OLS \end{itemize} & \begin{itemize} \item[M:] Kellstedt and Whitten Chapter 11 \end{itemize} \\
+        \hline 
+        Week 7 & \begin{itemize} \item[M - Oct. 3:] DIY: Running your own OLS and diagnosing it \item[W:] Review of Module 1 \item[F:] Midterm Exam \end{itemize} & \\
+        \hline
+        \multicolumn{3}{l}{\textbf{Module 2: Surveys}} \\
+        \hline
+        Assignments & Oct. 5 @ 11:59pm & Progress Report \#2 \\
+        \hline
+        Week 8 & \begin{itemize} \item[M - Oct. 10:] Types of surveys \& survey administration best practices \item[W:] Discussion: Types of surveys \item[F:] DIY: Identifying problems with the design of your survey \end{itemize} & \begin{itemize} \item[M:] Weisberg Chapter 1 \item[W:] Weisberg Chapter 3 \item[F:] Weisberg Chapter 2 \end{itemize}\\
+        \hline 
+        Week 9 & \begin{itemize} \item[M - Oct. 17:] Types of missing data, its problems, and solutions \item[W:] Practice: How to handle missing data  \item[F:] DIY: Checking for your own missing data, its patterns, and solving it \end{itemize} & \begin{itemize} \item[M:] Enders, Chapter 1 \item[W:] Roberts, 2022 \end{itemize} \\
+        \hline
+        Week 10 & \begin{itemize} \item[M - Oct. 24:] Review of potential outcomes and introduction to covariate imbalance \item[W:] Weights, matching, and covariate balancing \item[F:] Discussion: Weights, matching, and covariate balancing \end{itemize} & \begin{itemize} \item[W:] Huntington-Klein Chapter 14 \item[F:] Boyd, Epstein, and Martin 2010 \end{itemize} \\
+        \hline 
+        Week 11 & \begin{itemize} \item[M - Oct. 31:] DIY: Implementing your own weights, matching, and covariate balancing \item[W:] Problems with weights, matching, and covariate balancing \item[F:] Internal and external valdity \end{itemize} & \begin{itemize} \item[F:] Alrababa'H et al. 2021 \end{itemize} \\
+        \hline
+        \multicolumn{3}{l}{\textbf{Module 3: Experiments}} \\
+        \hline
+        Assignments & Nov. 11 @ 11:59pm & Progress Report 3 \\
+            & Dec. 2 @ 11:59pm & Final paper \\
+            & TBD & Final Exam \\
+        \hline 
+        Week 12 & \begin{itemize} \item[M - Nov. 7:] What are experiments? \item[W:] RCT's and two arm designs \item[F:] Sampling and Treatments \end{itemize} & \begin{itemize} \item[M:] Kellstedt and Whitten Chapter 4 \item[F:] AEPS Chapters 9 and 12 \end{itemize} \\
+        \hline 
+        Week 13 & \begin{itemize} \item[M - Nov. 14:] Discussion: Sampling  \item[W:] Discussion: Treatments \item[F:] DIY: Design your own experiment  \end{itemize} & \begin{itemize} \item[M:] Bos et al. 2022 \& Broockman and Kalla 2022 \item[W:] White  et al. 2014 \end{itemize}\\
+        \hline
+        Fall break & Nov. 21 - 27 & \\
+        \hline
+        Week 14 & \begin{itemize} \item[M - Nov. 28:] Audit studies \item[W:] Discussion: Audit studies \item[F:] DIY: Designing your own audit study \end{itemize} & \begin{itemize} \item[M:] AEPS Chapter 3 \item[W:] Gell-Redman et al 2018 \end{itemize} \\
+        \hline
+        Week 15 & \begin{itemize} \item[M - Dec. 5:] Field experiments \item[W:] Discussion: field experiments and designing your own \item[F:] No class - Reading day \end{itemize} & \begin{itemize} \item[M:] AEPS Chapter 4  \item[W:] Gerber et al 2008 \end{itemize} \\
+        \hline
+        Week 16 & Final Paper; Final Exam \\
+        \hline
+
+\end{longtable}
+
+\section*{A note about changes:}
+
+Changes happen. Some structures work for some groups of students and not for others. Life happens outside of the course and we might need to adjust our expectations to it (e.g., snow days). I also regularly incorporate feedback from students throughout the semester. As a result, changes to any of this information on the syllabus will be announced in class and through email. If a permanent change needs to be made, it will be announced in class, through email, and an updated form of the syllabus will be uploaded to canvas. As I am someone who likes consistency and structure, I hope I will not need to make any drastic changes, but it should be known that I do sometimes make adjustments if the vibes are right.
+
+\newpage
+\section*{University-wide statements}
+
+\subsection*{Classroom Behavior}
+
+Both students and faculty are responsible for maintaining an appropriate learning environment in all instructional settings, whether in person, remote or online. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with race, color, national origin, sex, pregnancy, age, disability, creed, religion, sexual orientation, gender identity, gender expression, veteran status, political affiliation or political philosophy.  For more information, see the policies on classroom behavior and the Student Conduct \& Conflict Resolution policies.
+
+\subsection*{Requirements for COVID-19}
+
+As a matter of public health and safety, all members of the CU Boulder community and all visitors to campus must follow university, department and building requirements and all public health orders in place to reduce the risk of spreading infectious disease. CU Boulder currently requires COVID-19 vaccination and boosters for all faculty, staff and students. Students, faculty and staff must upload proof of vaccination and boosters or file for an exemption based on medical, ethical or moral grounds through the MyCUHealth portal.
+
+The CU Boulder campus is currently mask-optional. However, if public health conditions change and masks are again required in classrooms, students who fail to adhere to masking requirements will be asked to leave class, and students who do not leave class when asked or who refuse to comply with these requirements will be referred to Student Conduct and Conflict Resolution. For more information, see the policy on classroom behavior and the Student Code of Conduct. If you require accommodation because a disability prevents you from fulfilling these safety measures, please follow the steps in the “Accommodation for Disabilities” statement on this syllabus.
+
+If you feel ill and think you might have COVID-19, if you have tested positive for COVID-19, or if you are unvaccinated or partially vaccinated and have been in close contact with someone who has COVID-19, you should stay home and follow the further guidance of the Public Health Office (contacttracing@colorado.edu). If you are fully vaccinated and have been in close contact with someone who has COVID-19, you do not need to stay home; rather, you should self-monitor for symptoms and follow the further guidance of the Public Health Office (contacttracing@colorado.edu).
+
+\subsection*{Accommodation for Disabilities}
+
+If you qualify for accommodations because of a disability, please submit your accommodation letter from Disability Services to your faculty member in a timely manner so that your needs can be addressed.  Disability Services determines accommodations based on documented disabilities in the academic environment.  Information on requesting accommodations is located on the Disability Services website. Contact Disability Services at 303-492-8671 or dsinfo@colorado.edu for further assistance.  If you have a temporary medical condition, see Temporary Medical Conditions on the Disability Services website.
+
+\subsection*{Preferred Student Names and Pronouns}
+
+CU Boulder recognizes that students' legal information doesn't always align with how they identify. Students may update their preferred names and pronouns via the student portal; those preferred names and pronouns are listed on instructors' class rosters. In the absence of such updates, the name that appears on the class roster is the student's legal name.
+
+\subsection*{Honor Code}
+
+All students enrolled in a University of Colorado Boulder course are responsible for knowing and adhering to the Honor Code academic integrity policy. Violations of the Honor Code may include, but are not limited to: plagiarism, cheating, fabrication, lying, bribery, threat, unauthorized access to academic materials, clicker fraud, submitting the same or similar work in more than one course without permission from all course instructors involved, and aiding academic dishonesty. All incidents of academic misconduct will be reported to the Honor Code (honor@colorado.edu); 303-492-5550). Students found responsible for violating the academic integrity policy will be subject to nonacademic sanctions from the Honor Code as well as academic sanctions from the faculty member. Additional information regarding the Honor Code academic integrity policy can be found on the Honor Code website.
+
+\subsection*{Sexual Misconduct, Discrimination, Harassment and/or Related Retaliation}
+
+CU Boulder is committed to fostering an inclusive and welcoming learning, working, and living environment. The university will not tolerate acts of sexual misconduct (harassment, exploitation, and assault), intimate partner violence (dating or domestic violence), stalking, or protected-class discrimination or harassment by or against members of our community. Individuals who believe they have been subject to misconduct or retaliatory actions for reporting a concern should contact the Office of Institutional Equity and Compliance (OIEC) at 303-492-2127 or email cureport@colorado.edu. Information about university policies, reporting options, and the support resources can be found on the OIEC website.
+
+Please know that faculty and graduate instructors have a responsibility to inform OIEC when they are made aware of incidents of sexual misconduct, dating and domestic violence, stalking, discrimination, harassment and/or related retaliation, to ensure that individuals impacted receive information about their rights, support resources, and reporting options. To learn more about reporting and support options for a variety of concerns, visit Don’t Ignore It.
+
+\subsection*{Religious Holidays}
+
+Campus policy regarding religious observances requires that faculty make every effort to deal reasonably and fairly with all students who, because of religious obligations, have conflicts with scheduled exams, assignments or required attendance.
+
+See the campus policy regarding religious observances for full details.
+
+%%%%%% THE END 
+\end{document} 

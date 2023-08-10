@@ -1,0 +1,272 @@
+---
+title: "PSCI 1101 - Introduction to American Politics"
+format:
+  pdf:
+    linkcolor: "Maroon"
+    filecolor: "Maroon"
+    citecolor: "Maroon"
+    urlcolor: "Maroon"
+    toccolor: "Maroon"
+    latex-output-dir: "../out"
+    mainfont: "Helvetica Neue"
+---
+
++-----------------------------------------------------------------------------------------------:+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:+
+| [{{< fa chalkboard-teacher title="Instructor" >}}](https://damoncroberts.com) Damon C. Roberts | [{{< fa envelope title="Email" >}}](mailto:damon.roberts-1@colorado.edu) damon.roberts-1\@colorado.edu                                                                                                      |
++------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [{{< fa clock title="Meeting time" >}}](https://canvas.colorado.edu) Asynchronous              | [{{< fa map-marker title="Location" >}}](https://canvas.colorado.edu/) Canvas Course page                                                                                                                   |
++------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                | [{{< fa calendar title="Office Hours" >}}](https://scheduler.zoom.us/damoncroberts/fall-2023-office-hours) [Click to schedule office hours](https://scheduler.zoom.us/damoncroberts/fall-2023-office-hours) |
++------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+The American political system is a complex, but fascinating, combination of individual, group, and institutional behavior. The purpose of this course is to introduce you to the scientific understanding and study of the American political system. Over the course of this term, we will investigate the ways in which institutions create stability, how political actors operate within political institutions, and how members of the public are constrained by institutions as well shape these institutions through political actors. This course will be rooted in the scientific study of these questions. During this process, we will sharpen our skills to apply scholarly perspectives to current events.
+
+Before jumping into American politics as it is today, we will first examine how we got here. The first third of the term will focus on the theories and perspectives that shaped and still continues to shape our political system. We will then examine how our national and sub-national institutions are built to defend these historical influences. In the last third of the term, we will examine how the mass public and our representatives seek to change these institutions as well as defend them.
+
+By the end of this course, you should understand:
+
+1.  the basic components of American government.
+2.  how the perspectives shaping the founding of the system still shape our experiences today.
+3.  how governmental institutions are sources of stability.
+4.  how public officials and political actors seek to curry favor with the public as well as shape the institutions they exist within.
+5.  how the mass public influences and is influenced by our institutions, our political past, and by our public officials.
+6.  how to analyze current events from a broader perspective as well as to gain an appreciation for the scientific approach to understanding politics.
+
+# Prerequisites
+
+There are no prerequisites for the course.
+
+# Technological prerequisites
+
+You should have access to a Desktop, Laptop, or a Tablet that has access to the internet and has an updated web browser (such as Google Chrome, Mozilla Firefox, etc.).
+
+You should have basic familiarity with navigating web pages, video and audio players, as well as be comfortable using the Zoom platform for the purpose of meetings with me.
+
+You should also be comfortable with, and have access to, a word processing software of your choice (such as Google Docs, Microsoft Word, Apple Pages, etc.). Both Google Docs and Microsoft Word are available to CU Students for free as part of their fees paid to the university. If you need help accessing or installing these tools, please consult [OIT's website.](https://oit.colorado.edu/)
+
+# The course structure
+
+This class will be delivered online and asynchronously. What this means is that we will not meet in-person for lecture. We will also not have a designated time for you to attend lecture. Instead, the lectures will be recorded by me and then posted to Canvas for you to watch at a time that is convenient to you for that particular week.
+
+While this has advantages, it also presents some challenges. The increased flexibility of the course structure means that you can attend lecture whenever and wherever works best for you! That is great! This does not mean that the rigour of the class will change nor does it mean that the course will be any less of a time commitment. As this is a three credit course, it means that you should expect to spend approximately up to 3 hours a week interacting with the lecture material and attending office hours as well as up to 6 hours per week reading/listening to the assigned materials and completing assignments.
+
+Keep in mind, you are expected to complete this course before the close of the term (December $14^{th}$). What this means is that you cannot wait to start watching the lectures, reading/listening to the assigned materials, or turn in assignments on the last day of the term. You need to be making satisfactory progress throughout the term. [The course schedule](#course-schedule) sets my expectations of the assignments to be submitted and the materials that you watch/listen to/or read in order to be making satisfactory progress for the course. Your responsibility will be to coordinate your own schedule so that you can complete the work for the class during the date(s) that I outline in the [course schedule](#course-schedule). You should be prepared to watch lectures, read/listen to the assigned materials, and work on your assignments weekly. You are expected to complete the course within the dates for the term (see [except for a few select cases due to extenuating circumstances](https://catalog.colorado.edu/undergraduate/credits-grading/); but talk to me as soon as possible if this is needed.)
+
+The structure of the class means that the need for proactive communication is higher! As I cannot see confused faces, cannot keep track of whether or not you are attending class and keeping up with your notes, I need your help by reaching out to me when you are confused or are falling behind. The more time that you let me know of something that is limiting your success or enjoyment of the class, the more I can do about it!
+
+Here are the concrete ways that you can make sure to get a lot out of the course:
+
+1.  Watch the lectures. If you have questions, post a comment on the video, attend office hours, or send me an email.
+2.  Read/listen to the assigned materials! The assigned materials are meant to provide examples of the ways that people can scientifically approach politics.
+3.  Schedule appointments for my office hours.
+4.  Email me.
+
+Here are the concrete things that I am doing to help you learn and make the course enjoyable:
+
+1.  I will keep the lectures short. These asynchronous lectures are always a bit awkward to make. Aside from me not being born for YouTube, I tend to teach dynamically. Meaning, I like to adjust the pace of my lectures based on the students and on what they find most interesting. I can't get real-time feedback from you in this format, so instead I will break up each lecture into multiple videos and will post optional (not graded) questions that you can answer so we can both get feedback on how you are grasping the material.
+2.  The readings will mostly be short and I will provide a mix between news articles, podcasts, and academic articles. Rather than have you read from a textbook, the hope is that these *free* options will be both accessible and will help give a variety of perspectives. Additionally, I want to give you concrete examples of how political scientists study politics scientifically!
+3.  Offering a lot of slots for office hours to try to work with your schedules as best as I possibly can.
+4.  I will solicit feedback throughout the term. This is your learning experience. While I have specific goals for the course based off of my expertise, I want to find ways to strike a balance so that this course will be engaging, and informative to you. Regardless of your knowledge of these topics already.
+5.  I will offer the opportunity for students to have a "choose your own adventure" for the [final project](#final-project) and the [progress reports](#progress-reports). I will provide more details as the course progresses and [elaborate below](#final-project). The reason is that many students feel isolated from both their instructors and from other students in asynchronous courses - the learning feels much less collaborative. To try to address this and to let you have some autonomy, I will offer you the opportunity to work with other students for the final project. You do not have to work with other students, if you do not want to though.
+
+# Contacting me
+
+You should feel free to contact me throughout the semester. I encourage you to come to office hours so that I can help answer any questions you have about the course policies, the material covered in the class, any concerns you have, questions about navigating University, offering additional materials if there is a topic you are really interested in, etcetera. 
+
+You are also welcomed to email me. I am usually responsive to email Monday-Friday from 9 AM -- 5 PM (I may take a day or two, but I will get back to you). Please do note that email is not instantaneous communication; it is not a text message or a DM. Despite my best intentions, I receive too many emails and try to manage a decent work-life balance. This means that you if you have questions for me and send them over email, you should be prepared for a response to take a day or two. In other words, do not send me an email right before an assignment is due or some other deadline.
+
+Another way to keep in contact with me is by commenting on the posted lecture videos. If you have clarifying questions about any of the material, please post a comment to the video! Chances are that other students have similar questions. The benefit of posting a comment when you have clarifying questions is that it allows your peers to see my clarification. I would not use this option as a way to ask questions about personal matters (such as grades), though.
+
+## How to refer to me
+
+I am a PhD Candidate, which means I have not yet received my PhD - but I am in the last stages of the process, so my title is not yet Dr. Roberts. I am the instructor of the course, so it is totally appropriate to refer to me as Professor Roberts or Mr. Roberts.
+
+I go back and forth with this, but I am generally comfortable with students referring to me by my first name - with a caveat. Female faculty and faculty of color face a several barriers in academia. One part of this is that students often treat female faculty and faculty of color as if they have less authority and expertise over their respective subject material. These biases manifest in a number of ways. One common way is that students feel more comfortable referring to their non-white male faculty without an acknowledgement of their titles. A second part of this is that students perceive faculty who require more formality as being less personable, less approachable, and as more strict. My comfort with being less formal without the same concerns of how it shapes perceptions of me is yet another unearned privilege that I have.
+
+Because I am comfortable with less formal interactions with my students, you should not assume other instructors and faculty are as well. Unless a faculty member explicitly tells you that it is okay to refer to them by their first name, you should only refer to them as Professor LASTNAME. This is a safe option for faculty that may not or may not yet have a PhD where referring to them as Dr. LASTNAME may not be appropriate. You should also not criticize faculty who do request that you refer to them with their professional titles. They are not less nice than I am. To get this far is a **TON** of work and to ask for recognition of that effort is entirely reasonable.
+
+## Office Hours
+
+Office hours are designated times I (and all faculty and TA's) set aside each week for students to visit me in my office. I will always be available during these times. These hours are your chance to ask questions about the course material, about university in general, or just to chat so that we can get to know one another.
+
+When I was an undergraduate, I was very reluctant to attend office hours out of feeling intimidated as well as feeling that it was a burden for my professor. I owe me being here and teaching this class to an instructor who insisted I attend his office hours - even tracked me down in the lobby of a building encouraging me to come. He ended up wanting to talk with me to take one of my ideas for a paper in his class and to try to get it published in a academic journal; which it eventually did!
+
+With students in past semesters, I have connected them for internship opportunities, talk to them about graduate school, tips for succeeding in college, and continue to be in contact with a number of them. So please, take this as an opportunity to have me meet you, for you to meet me, and to help maximize what you get out of the course. So please, do not just come to office hours only after you take an exam. But come when you have questions or would like to learn more about something!
+
+# Course materials
+
+All materials for the course will be posted on the Canvas page. To make the course accessible to everyone, you will not be required to purchase a textbook for this course. I will post free and digital versions of the assigned readings for the course.
+
+# Assignments and grades
+
+The goal of the assignments for this course are to aid in in your learning and for your acquiring of skills. Grades are not the outcome that matters most to the class. However, I am realistic that many people use grades as cognitive shortcuts to determine how successful of a student you are. They are required by the University as well as many scholarships and can impact future job prospects.
+
+In my eyes, grades are simply a way to provide feedback to you about your demonstrated grasp of the course's material and to certify that you have met the learning objectives of the course.
+
+I am an follower of the "un-grading movement". I think students put too much emphasis on their grades and spend much less time focusing on whether they are learning and growing from the course. In its purest form, students receive feedback throughout the course and the instructor will meet with the student at the end of the term to assign a final grade, but there is no tracking of points to assignments by the instructor or the student. The final grade is the only grade assigned and is a reflection of your overall performance. This is an online and asynchronous course. This makes it difficult for you to gain trust in me about your progress in the term. Therefore, I am adopting a bit of an "ungraded lite" approach to the course. 
+
+To try to support this perspective, at the end of each assignment, I will ask you to reflect on your progress and learning during that particular assignment. This helps you consider areas for improvement and your strengths. Likewise, it allows me to consider your performance in terms of your personal growth and learning for that particular assignment. The goal is that this enables a collaborative reflection on your progress and will make assigning points to an assignment a more transparent process. Your ability to reflect and assign yourself a letter grade does not mean that you are choosing your grade. It is an opportunity for reflection and to find areas for growth.
+
+For you to earn a passing grade (C- or higher), you must complete the exams and final project for the course. If you do not complete the any of the exams, any of the progress reports, and/or the final project, your grade will not be high enough to earn a passing grade (C- or higher). Note, that with the grading breakdown below, it appears that you could pass the class by not earning a single weekly participation point, you are required to complete a week's given material and assignments before moving onto the next week's material. That is, you will not pass the class if you do not watch lectures and complete previous assignments. Therefore, you should think of the Weekly Participation points as "freebie points".
+
+## Grading breakdown
+
+-   Weekly Participation x 10 = 10% (1% each)
+-   Progress Report x 2 = 20% (10% each)
+-   Midterm Exam = 20%
+-   Final Exam = 20%
+-   Final project = 30%
+
+### Grading scale
+
+A = 94 - 100; A- = 90 - 93.9; B+ = 87 - 89.9; B = 83 - 86.9; B- = 80 - 82.9; C+ = 77 - 79.9; C = 73 - 76.9; C- = 70 - 72.9; D+ = 67 - 69.9; D = 63 - 66.9; D- = 60 - 62.9; F \< 59.9 [^1]
+
+[^1]: I will round final grades if they are *within* 0.1 point of a higher letter grade.
+
+## Assignments
+
+### A note on submitting assignments
+
+All written assignments should be submitted in PDF format. I do this for consistency. Sometimes it can be really hard to grade assignments if they are submitted in different formats. So, regardless of whether you write your assignments as a Google Doc, Microsoft Word Document, or Apple Pages document, you should use the "Export" option to save a copy of your final draft of the assignment as a PDF document just before submitting the PDF document on to canvas. 
+
+When submitting assignments, you should triple-check that the version of the assignment that you are submitting is the one you want graded. If you submit the wrong version of the assignment, wrong file, or a corrupt file and do not turn in the assignment that you do want graded before the due date, the [late policy](#late-policy) will apply. 
+
+### Weekly Participation
+
+The expectation is that each week your watch the lecture recordings and have read/listened to the assigned materials. To incentivize you to keep on track with the lectures and assigned materials, those that watch the videos and answer the "Check your understanding questions" that I have embedded in the lecture recordings will earn a point each week.
+
+Each week's material is split into two parts: each with a particular question that the lectures intend to explore. To watch and answer the embedded questions for each of those parts will earn you 1 point. If you do not watch the videos or answer the questions embedded in them for the first or second lecture in a given week, then you will earn 0.5 points. If you do not watch the videos and answer the questions for either the first and the second lecture, then you will earn 0 points for that week's material.
+
+The point of the questions embedded in the lecture recordings are to "check your understanding" -- thus their name. The expectation is not that you get them right. So, when grading your weekly participation, you **do not** have to get all of the questions right in order to earn the points.
+
+### Progress Reports
+
+Two times this semester, I will ask you to submit a "Progress Report." These progress reports are designed to help you build up to your final project. As will be discussed further in class and in my description of the [final project below](#final-project), you can choose to team up with other students enrolled in the class (up to 2 other people) or to work on the project by yourself. If you choose to work in a group with others, you have two formats that you can choose from. The first option is to do a final project as a 10-minute podcast episode. In which case, your progress reports will be submitted as outlines the drafts of the scripts for the podcast episode. The second option is to complete the progress reports as drafts of a research paper. If you choose to work on the final project yourself, then you'll write the progress reports as drafts of your research paper. 
+
+There are a couple of goals these assignments achieve. First, it gives you continual feedback about the things that should be changed. Second, the assignments are designed so that if you implement the feedback from the progress reports, you should not need to take too long to complete your final paper. These progress reports are designed specifically to be built upon and put together for the final project. That is, regardless of whether you are working alone, with a group and regardless of whether it will be a podcast episode or a research paper, the progress reports should be drafts of the final project.
+
+If you plan to work in a group, you will submit progress reports as a team. You will need to notify me before you submit the first progress report that you are working on a team with other students so that I can set that up in Canvas. Also note that if you work in a team, then I will assign one grade for the whole team on these progress reports.
+
+More details about what you will need to address in the progress reports will be provided on Canvas.
+
+### Midterm and Final exam
+
+The midterm and final exams for this course will be multiple choice. These exams will cover the material in the lectures and in the assigned readings/podcasts. Additionally, these exams will be timed (times will vary if you have a University approved accommodation that you have notified me of) and open-book. As the exams will be timed, you should ensure that your notes are organized so that *if* you do need to look something up, you can do so quickly.
+
+To study for these exams, I recommend taking good notes on the lectures and on the readings as you go. This will make the preparation for the exams much quicker and will make it a lot easier to find the answers. Additionally, these exams will be timed (times will vary if you have a University approved accommodation that you have notified me of) and open-book. As the exams will be timed, you should ensure that your notes are organized so that *if* you do need to look something up, you can do so quickly.
+
+You are required to complete these exams by yourself. You are not allowed to use any resources, people, material, or software besides your notes from the lecture material and from the assigned readings/podcasts. In other words, the exams are open-note and open-book, but not open-peer! If you do not follow any of these rules, you will receive a 0 on the assignment and will be handled in accordance with University policy as Academic Dishonesty.
+
+### Final Project
+
+You will have two formats that you can complete the final project as: 1) a 5-page (double spaced) research paper, or 2) a 10 minute podcast episode. Students that would like to work in a group with other students are welcomed to submit their final project as either a paper or as a podcast episode. Those that wish to complete the project on their own will submit the first option (the research paper).
+
+For both of these formats, students will be asked to choose a current event that has happened from May of 2023 to the end of October 2023. Once settled on a current event, students are required to analyze that current event and to put it in the perspective of the scientific approach to politics. In other words, rather than students recounting the event, students will be asked to analyze the event in the perspective of the broader American political system. They should be able to push past an ability to answer the question of "What happened in this event and who was involved", but should be able to answer the question of "Why did this event occur?" and "what does this mean for our understanding of politics?" Over the course of the term, students should be building their ability on how to address these questions and will use the progress reports as opportunities to get practice with this.
+
+Please note, that if you choose to work in a group with other students that you should decide before the first progress report and should notify me of the formation of the group. If you choose to work in the group, your grade for the final project and for the progress report will be determined by the group's grade.
+
+Also note, that if you choose to submit the final project as a podcast episode that you will be required to submit scripts for the podcast episode while working on the progress reports. Also, I would recommend to producing the podcast by recording a Zoom meeting. If you would like to get more fancy with it, that is fine; just please give me a heads up.
+
+## Late policy
+
+It will be very important that you stay on top of the material for the course and to not fall behind. However, I do recognize that life events may come up. As a number of the assignments in the course build on one another, you should keep in mind that turning in assignments late also means you will receive feedback later than you otherwise would have, giving you less time to implement the feedback for the next assignment.
+
+Out of fairness to you, your peers, and for me, I will accept assignments up to 48 hours past the due date. Once the due date has past, you will incur a 10% reduction in your grade and will lose another 10% after 24 hours the due date has past.
+
+If you have some extenuating circumstances (health, family, work) that makes it hard for you to turn in an assignment by the due date, you should contact me before the assignment is due. We will work out a new due date for you and in some cases will waive the late penalty. **The late penalty will only be waived in circumstances where you have contacted me *and* have worked out a prior arrangement with me *before* the assignment is due (if possible).**
+
+# Course Schedule
+
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week                        | Topic                                                                                          | Assigned                                              |
++=============================+================================================================================================+=======================================================+
+| Week 1 (Oct. 2 - 6)         | **The science of politics**                                                                    | 1.1 Syllabus                                          |
+|                             |                                                                                                |                                                       |
+|                             | 1.1 Introduction to the course                                                                 | 1.2 Steinmo 2008                                      |
+|                             |                                                                                                |                                                       |
+|                             | 1.2 Politics is science?                                                                       |                                                       |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 2 (Oct. 9 - 13)        | **The debates creating the American political system**                                         | 2.1 Rose 2012                                         |
+|                             |                                                                                                |                                                       |
+|                             | 2.1 How was the system created?                                                                | 2.2 Hannah-Jones 2019                                 |
+|                             |                                                                                                |                                                       |
+|                             | 2.2 Who created the system and for whom does it benefit?                                       | **2.A Progress Report #1 due Oct. 13 by 11:59 pm**    |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 3 (Oct. 16 - 20)       | **Civil rights, civil liberties, and federalism's part to play**                               | 3.1 FindLaw.Com                                       |
+|                             |                                                                                                |                                                       |
+|                             | 3.1 What are civil rights and civil liberties?                                                 | 3.2 Kettl 2020, Chapter 1                             |
+|                             |                                                                                                |                                                       |
+|                             | 3.2 What is federalism, and what does it got to do with civil rights and liberties?            |                                                       |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 4 (Oct. 23 - 27)       | **The Executive and the Bureaucracy**                                                          | 4.1 The White House                                   |
+|                             |                                                                                                |                                                       |
+|                             | 4.1 What are the roles of Executive offices (Governors and the President) and the Bureaucracy? | 4.2 Lewis 2019                                        |
+|                             |                                                                                                |                                                       |
+|                             | 4.2 Are these roles shaped by those who hold those offices?                                    | **4.A Midterm exam due by Oct. 27 at 11:59 pm**       |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 5 (Oct. 30 - Nov. 3)   | **Congress and legislative branches**                                                          | 5.1 Grossman, Lewallen, Rosenstiel                    |
+|                             |                                                                                                |                                                       |
+|                             | 5.1 What are the roles of Congress and State legislative bodies?                               | 5.2 Grossman and Green                                |
+|                             |                                                                                                |                                                       |
+|                             | 5.2 Are these roles shaped by those who hold those offices?                                    |                                                       |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 6 (Nov. 6 - 10)        | **The Judiciary**                                                                              | 6.1 U.S. Courts on Rule of Law                        |
+|                             |                                                                                                |                                                       |
+|                             | 6.1 What is the rule of law, and what are the courts' roles in maintaining it?                 | 6.2 Segal et al. 2011                                 |
+|                             |                                                                                                |                                                       |
+|                             | 6.2 Do courts legislate and what are the consequences?                                         |                                                       |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 7 (Nov. 13 - 17)       | **What the public know about politics**                                                        | 7.1 Grossman, Byrd, and Collins                       |
+|                             |                                                                                                |                                                       |
+|                             | 7.1 Do political elites influence what we know about politics?                                 | 7.2 Grossman and Porter                               |
+|                             |                                                                                                |                                                       |
+|                             | 7.2 What does our opinion do to influence elites?                                              | **7.A Progress Report #2 due by Nov. 17 at 11:59 pm** |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Fall Break (Nov. 20 - 24)   | Have a great break!                                                                            | NA                                                    |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 8 (Nov. 27 - Dec. 1)   | **What influences the public's participation in politics**                                     | 8.1 Griffin and Newman 2005                           |
+|                             |                                                                                                |                                                       |
+|                             | 8.1 Does participation matter?                                                                 | 8.2 Grossman and Holman                               |
+|                             |                                                                                                |                                                       |
+|                             | 8.2 What influences whether or not we participate in politics?                                 | 8.A Final Project due by Dec 1. at 11:59 pm           |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 9 (Dec. 4 - 8)         | **The future of American democracy**                                                           | 9.1 Berlinski et al. 2023                             |
+|                             |                                                                                                |                                                       |
+|                             | 9.1 What forces limit our representation and what we can do about it?                          |                                                       |
+|                             |                                                                                                |                                                       |
+|                             | 9.2 Course wrap-up and review                                                                  |                                                       |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Week 10 (Dec. 11 - Dec. 15) | Final exam week                                                                                | **10.A Final exam due by TBA**                        |
++-----------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+
+: Course Schedule
+
+# University-wide policies
+
+## Classroom Behavior
+
+Both students and faculty are responsible for maintaining an appropriate learning environment in all instructional settings, whether in person, remote or online. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with race, color, national origin, sex, pregnancy, age, disability, creed, religion, sexual orientation, gender identity, gender expression, veteran status, political affiliation or political philosophy.  For more information, see the [classroom behavior policy](www.colorado.edu/policies/student-classroom-and-course-related-behavior), the [Student Code of Conduct](https://www.colorado.edu/sccr/student-conduct), and the [Office of Institutional Equity and Compliance](https://www.colorado.edu/oiec/).
+
+## Requirements for COVID-19
+
+As a matter of public health and safety, all members of the CU Boulder community and all visitors to campus must follow university, department and building requirements and all public health orders in place to reduce the risk of spreading infectious disease. The CU Boulder campus is currently mask-optional. However, if public health conditions change and masks are again required in classrooms, students who fail to adhere to masking requirements will be asked to leave class, and students who do not leave class when asked or who refuse to comply with these requirements will be referred to Student Conduct and Conflict Resolution. For more information, see the policy on classroom behavior and the Student Code of Conduct. If you require accommodation because a disability prevents you from fulfilling safety measures related to infectious disease, please follow the steps in the “Accommodation for Disabilities” statement on this syllabus.
+If you feel ill and think you might have COVID-19 or if you have tested positive for COVID-19, you should stay home and follow the [further guidance of the Public Health Office](https://www.colorado.edu/health/public-health/quarantine-and-isolation) regarding how long to stay in isolation. If you have been in close contact with someone who has COVID-19 but do not have any symptoms and have not tested positive for COVID-19, you do not need to stay home.
+
+## Accommodation for Disabilities
+If you qualify for accommodations because of a disability, please submit your accommodation letter from Disability Services to your faculty member in a timely manner so that your needs can be addressed.  Disability Services determines accommodations based on documented disabilities in the academic environment.  Information on requesting accommodations is located on the [Disability Services website](https://www.colorado.edu/disabilityservices/). Contact Disability Services at 303-492-8671 or [dsinfo@colorado.edu](mailto:dsinfo@colorado.edu) for further assistance.  If you have a temporary medical condition, see [Temporary Medical Conditions](www.colorado.edu/disabilityservices/students/temporary-medical-conditions) on the Disability Services website.
+
+## Preferred Student Names and Pronouns
+CU Boulder recognizes that students' legal information doesn't always align with how they identify. Students may update their preferred names and pronouns via the student portal; those preferred names and pronouns are listed on instructors' class rosters. In the absence of such updates, the name that appears on the class roster is the student's legal name.
+
+## Honor Code
+All students enrolled in a University of Colorado Boulder course are responsible for knowing and adhering to the [Honor Code](https://www.colorado.edu/sccr/honor-code). Violations of the Honor Code may include, but are not limited to: plagiarism, cheating, fabrication, lying, bribery, threat, unauthorized access to academic materials, clicker fraud, submitting the same or similar work in more than one course without permission from all course instructors involved, and aiding academic dishonesty. All incidents of academic misconduct will be reported to Student Conduct & Conflict Resolution ([honor@colorado.edu](mailto:honor@colorado.edu); 303-492-5550). Students found responsible for violating the [Honor Code](https://www.colorado.edu/sccr/honor-code) will be assigned resolution outcomes from the Student Conduct & Conflict Resolution as well as be subject to academic sanctions from the faculty member. Additional information regarding the Honor Code academic integrity policy can be found on the [Honor Code website](https://www.colorado.edu/sccr/honor-code).
+
+## Sexual Misconduct, Discrimination, Harassment and/or Related Retaliation
+CU Boulder is committed to fostering an inclusive and welcoming learning, working, and living environment. University policy prohibits sexual misconduct (harassment, exploitation, and assault), intimate partner violence (dating or domestic violence), stalking, protected-class discrimination and harassment, and related retaliation by or against members of our community on- and off-campus. These behaviors harm individuals and our community. The Office of Institutional Equity and Compliance (OIEC) addresses these concerns, and individuals who believe they have been subjected to misconduct can contact OIEC at 303-492-2127 or email cureport@colorado.edu. Information about university policies, [reporting options](https://www.colorado.edu/oiec/reporting-resolutions/making-report), and support resources can be found on the [OIEC website](www.colorado.edu/institutionalequity/).
+
+Please know that faculty and graduate instructors have a responsibility to inform OIEC when they are made aware of any issues related to these policies regardless of when or where they occurred to ensure that individuals impacted receive information about their rights, support resources, and resolution options. To learn more about reporting and support options for a variety of concerns, visit [Don’t Ignore It](https://www.colorado.edu/dontignoreit/).
+
+## Religious Holidays
+Campus policy regarding religious observances requires that faculty make every effort to deal reasonably and fairly with all students who, because of religious obligations, have conflicts with scheduled exams, assignments or required attendance. In this class, you should reach out to me to notify me of any deadlines that may conflict with any religious observances before the deadline so that we can come up with a plan.
+
+See the [campus policy regarding religious observances](www.colorado.edu/policies/observance-religious-holidays-and-absences-classes-andor-exams) for full details.
