@@ -1,0 +1,34 @@
+---
+title: Gustavo Perez \& Damon C. Roberts
+subtitle: Methods Lab Coordinators
+format:
+  fancy-doc-pdf:
+    toc: false
+    latex-output-dir: ../out/
+---
+
+# What we do
+
+We are here to help you! As a student enrolled in a political research methodology course or working on your undergraduate thesis, we are available as a resource for all of your methods questions. We are here to assist your Instructor and your Teaching Assistant by helping you with questions about your statistical analyses in STATA or R. We are available to help with these common questions:
+
+- Downloading your software
+- Installing packages to access important functions
+- Tracking down the source of error messages
+- Interpreting the outputs from the software
+- We are also happy to help with recommending coding workflows, best practices, and data visualization.
+
+# To view our current availability and to schedule an appointment
+
+All appointments are held over Zoom. Appointments can be scheduled in 30 minute intervals. If you need more than 30 minutes, please schedule consecutive appointments. Before doing this though, be mindful of your peers.
+
+Please note that appointments will need to be scheduled at least one full day in advance.
+
+If you need to cancel the appointment, your email confirmation for the appointment will contain a link allowing you to cancel the meeting should you be unable to attend.
+
+### To schedule a meeting with Mr. Perez:
+
+[Mr. Perez's appointment scheduler](https://calendly.com/gustavoperezarrobo/30min)
+
+### To schedule a meeting with Mr. Roberts:
+
+[Mr. Roberts' appointment scheduler](https://scheduler.zoom.us/damoncroberts/fall-2023-office-hours)
