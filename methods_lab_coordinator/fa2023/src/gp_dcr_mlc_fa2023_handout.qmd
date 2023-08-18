@@ -31,4 +31,4 @@ If you need to cancel the appointment, your email confirmation for the appointme
 
 ### To schedule a meeting with Mr. Roberts:
 
-[Mr. Roberts' appointment scheduler](https://scheduler.zoom.us/damoncroberts/fall-2023-office-hours)
+[Mr. Roberts' appointment scheduler](https://calendly.com/damoncharlesroberts/fa2023-office-hours)
